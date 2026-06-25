@@ -1,0 +1,118 @@
+/* Remove top padding from page */
+
+section.main > div {
+    padding-top: 0rem !important;
+}
+
+/* Streamlit container */
+
+.block-container {
+    padding-top: 0rem !important;
+    margin-top: 0rem !important;
+}
+
+[data-testid="stHeading"] h1 {
+    text-align: center;
+    color: #1976D2;
+    margin-top: 0 !important;
+    margin-bottom: 0.25rem !important;
+}
+
+[data-testid="stCaptionContainer"] {
+    text-align: center;
+    color: #64748B;
+}
+
+/* KPI Cards */
+/* Card */
+[data-testid="stMetric"] {
+    background: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+    transition: all .25s ease;
+}
+
+[data-testid="stMetric"]:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0,0,0,.08);
+}
+
+/* Label */
+[data-testid="stMetricLabel"] {
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+}
+
+[data-testid="stMetricLabel"] p {
+    width: 100%;
+    text-align: center !important;
+    font-size: 14px;
+    font-weight: 500;
+    color: #64748B;
+}
+
+/* Value */
+[data-testid="stMetricValue"] {
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+}
+
+[data-testid="stMetricValue"] div {
+    text-align: center !important;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1976D2;
+}
+
+[data-testid="stMetricDelta"] {
+    justify-content: center;
+}
+
+/* Home Feature Cards */
+
+.feature-card {
+    background: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    padding: 24px;
+    height: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+    transition: all .25s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,.10);
+}
+
+.feature-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1976D2;
+    margin-bottom: 12px;
+}
+
+.feature-description {
+    color: #64748B;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.feature-list {
+    color: #334155;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+
+    [data-testid="stMetricValue"] div {
+
+        font-size: 22px;
+    }
+
+}
