@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-👉 **[Open Dashboard](https://indonesia-rainfall-intelligence.streamlit.app)**
+👉 **[Open Dashboard](https://indonesia-rainfall-intelligence-platform.streamlit.app/)**
 
 ---
 
