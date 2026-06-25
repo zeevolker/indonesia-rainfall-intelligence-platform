@@ -4,6 +4,12 @@
 
 ---
 
+## 🚀 Live Demo
+
+👉 **[Open Dashboard](https://indonesia-rainfall-intelligence.streamlit.app)**
+
+---
+
 ## 🌍 Overview
 
 The **Indonesia Rainfall Intelligence Platform** is an interactive analytics dashboard designed to monitor and analyze rainfall conditions across Indonesia. The platform combines multiple authoritative weather and climate data sources to provide comprehensive rainfall intelligence through four integrated analytical modules.
