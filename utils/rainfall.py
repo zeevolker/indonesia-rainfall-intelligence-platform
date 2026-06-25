@@ -2,12 +2,12 @@ def rainfall_category(value):
 
     if value < 1:
         return "🟢 Low"
-
     elif value < 5:
         return "🟡 Moderate"
-
     elif value < 10:
         return "🟠 High"
+    else:
+        return "🔴 Extreme"
 
 RAINFALL_COLORS = {
     "low": "green",
